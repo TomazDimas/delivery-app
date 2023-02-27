@@ -3,7 +3,11 @@ Projeto criado por Tomaz Dimas e mais 5 desenvolvedores durante o curso de Desen
 
 # Descrição
 
-O Delivery APP é um projeto Full Stack que simula uma aplicação de entrega de bebidas e comidas, possuindo uma interface para o usuário cliente e vendedor utilizarem, mostrando os produtos e acompanhamento de todo processo de entrega. Além disso todas informações e dados são inseridas, atualizadas e deletadas dinamicamente em uma base de dados
+O Delivery APP é um projeto Full Stack que simula uma aplicação de entrega de bebidas e comidas, possuindo uma interface para o usuário cliente e vendedor utilizarem, mostrando os produtos e acompanhamento de todo processo de entrega. Além disso todas informações e dados são inseridas, atualizadas e deletadas dinamicamente em uma base de dados.
+
+Para que possam acessar o aplicativo, tanto clientes quanto vendedores precisam fazer login. Além disso, o administrador do sistema também precisa ter acesso. No entanto, cada um tem acesso a funções diferentes: (1) Os clientes podem comprar produtos da lista; (2) Os vendedores podem aprovar, preparar e entregar os pedidos; (3) O administrador pode gerenciar quem usa o aplicativo.
+
+Em resumo, o aplicativo permite a comunicação entre clientes e vendedores. Os clientes fazem seus pedidos por meio do "carrinho de compras" e os vendedores os aprovam, preparam e enviam. Quando o produto é entregue, o cliente marca o pedido como "recebido". Ambos têm acesso aos detalhes de seus pedidos.
 
 <details>
 <summary><strong> Estrutura do projeto</strong></summary><br />
