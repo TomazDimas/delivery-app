@@ -15,7 +15,7 @@ O projeto é composto de 3 entidades importantes para sua estrutura:
   - Tem o papel de fornecer dados para o serviço de _backend_.
 
 2️⃣ **Back-end:**
- - Deve rodar na porta `3001`, pois o front-end faz requisições para ele nessa porta por padrão;
+ - Deve rodar na porta `3306`, pois o front-end faz requisições para ele nessa porta por padrão;
  - Onde toda API vai funcionar.
 
 3️⃣ **Front-end:**
