@@ -26,11 +26,24 @@ O projeto é composto de 3 entidades importantes para sua estrutura:
 
 # Instalação e Inicialização
 
-  - `start`: Limpa as portas `3000` e `3001` e simula a inicialização no avaliador. Também prepara o campo rodando o `Sequelize` para restaurar o **banco de dados de testes** (final `-test`) e sobe a aplicação com `pm2` em modo `fork` (uma instância para cada aplicação). Nesse modo, as alterações não são assistidas;
-    - *uso (na raiz do projeto): `npm start`*
+<details>
+  <summary>
+    <strong>Instruções</strong>
+  </summary><br>
+<h3>1. Faça o git clone na sua máquina e entre no diretório:</h3><br>
 
-  - `stop`: Para e deleta as aplicações rodando no `pm2`;
-    - *uso (na raiz do projeto): `npm stop`*
+ - Lembre-se de clonar o repositório no diretório desejado na sua máquina!<br>
+ `git git@github.com:LucasBelgamann/delivery_app.git`<br>
+ `cd delivery_app`<br>
+
+ - Após isso rode o seguinte comando para iniciar um container MySql!<br>
+ `docker run --name mysql-docker -e MYSQL_ROOT_PASSWORD=password -d -p 3306:3306 mysql`
+ - Executar um `npm install` na raiz do projeto, e por fim os seguintes comandos para iniciar o projeto!<br>
+ `cd back-end`<br>
+ `npm run dev`<br>
+ `cd front-end`<br>
+ `npm start`<br>
+ </details>
 
 # Ferramentas e Habilidades utilizadas
 
